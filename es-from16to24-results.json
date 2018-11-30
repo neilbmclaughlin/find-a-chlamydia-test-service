@@ -1,0 +1,793 @@
+{
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 3632,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "21867381",
+        "_score": null,
+        "_source": {
+          "address": {
+            "addressLines": [
+              "King's College Hospital",
+              "Ground Floor, Camberwell Building",
+              "Denmark Hill",
+              "London",
+              "Greater London"
+            ],
+            "postcode": "SE5 9RS"
+          },
+          "contacts": {
+            "telephoneNumber": "020 3299 5000",
+            "website": "http://www.kch.nhs.uk/service/a-z/sexual-health"
+          },
+          "generalNotes": "Doors open at 8.45am to allow patients to register. The walk-in service is available weekdays only (see above). You must have an appointment to be seen on a Saturday.   Please note: We do not offer all types and brands of contraceptive.",
+          "gsdId": "10035322",
+          "id": "21867381",
+          "location": {
+            "coordinates": [
+              -0.0939,
+              51.46808
+            ],
+            "type": "Point"
+          },
+          "name": "Camberwell Sexual Health Centre",
+          "openingTimes": {
+            "description": "Walk-in appointments available at the following times:  Monday 9am - 3pm Tuesday 9am - 3pm Wednesday 1pm - 3pm Thursday 9am - 3pm Friday 9am - 3pm Saturday 9.15am - 11.30am (appointments only)  f you have no symptoms and want a check-up, come to the Centre and order an STI self-testing kit. When you order a kit you can choose to either: take the kit away with you there and then, or arrange for it to be delivered to an address of your choice.  This is confidential and you will get your results much quicker - by text, and usually within 72 hours. Hours this is available: Monday, Tuesday, Thursday and Friday, 9am – 7.30pm; Wednesday, 1pm – 7:30pm. ."
+          },
+          "serviceDetails": "Provide an open access, confidential walk-in contraception and sexual health service for men and women. Services offered include:   • Sexual health information  • A wide range of contraceptive methods and emergency contraception  • Pregnancy testing  • Information and referral for abortion  • Testing and treatment for sexually transmitted infections (STIs)  • Testing for bacterial vaginosis and thrush  • Sexual health examinations  • Free condoms for men and women  • Post-exposure prophylaxis after sexual exposure (PEPSE) for HIV  • Rapid (same-day) HIV testing",
+          "serviceType": "Chlamydia screening under 25s",
+          "venueType": "Clinic",
+          "uid": "10035322"
+        },
+        "sort": [
+          0.4064898879554952
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "21821062",
+        "_score": null,
+        "_source": {
+          "address": {
+            "addressLines": [
+              "Akerman Health Centre",
+              "60 Patmos Road",
+              "London",
+              "Greater London"
+            ],
+            "postcode": "SW9 6AF"
+          },
+          "contacts": {
+            "telephoneNumber": "020 3049 6690",
+            "website": "http://www.minetgreenhealthpractice.co.uk/practice-information/sexual-health-clinic/"
+          },
+          "gsdId": "10038357",
+          "id": "21821062",
+          "location": {
+            "coordinates": [
+              -0.105189621,
+              51.47572
+            ],
+            "type": "Point"
+          },
+          "name": "Minet Green Health Practice",
+          "openingTimes": {
+            "description": "Tuesday 4 - 7pm. Saturday 9.30am - 12.30pm. Walk-in service."
+          },
+          "serviceDetails": "Sexual health clinic. Delivers free and confidential sexual health services to women and men, including:  • Sexual health information.  • Full range of contraceptive methods, including long-acting methods such as injections, Implanon and IUD/IUS.  • Emergency contraception.  • Pregnancy testing.  • Information and referral for abortion.  • Testing and treatment for sexually transmitted infections (STIs).  • HIV testing.  • Sexual health examinations that may be necessary to check for infection or other sexual and genital problems.  • Free condoms.  • Cervical smears.  • Referral to other specialist clinics.",
+          "serviceType": "Chlamydia screening under 25s",
+          "venueType": "Clinic",
+          "uid": "10038357"
+        },
+        "sort": [
+          0.603377481492701
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl194701",
+        "_score": null,
+        "_source": {
+          "id": "cl194701",
+          "odsCode": "FKF80",
+          "serviceType": "SRV0267",
+          "address": {
+            "postcode": "SE11 4HQ",
+            "addressLines": [
+              "99 Kennington Lane",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": "http://www.hillspharmacy.net",
+            "additionalContacts": [],
+            "telephoneNumber": "020 7582 6344",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": null,
+            "email": null
+          },
+          "identifier": "FKF80",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.10807032138109207,
+              51.489620208740234
+            ]
+          },
+          "name": "Hills Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "08:30",
+                  "closes": "18:30"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "08:30",
+                  "closes": "19:30"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "08:30",
+                  "closes": "18:30"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "08:30",
+                  "closes": "19:30"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "08:30",
+                  "closes": "18:30"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "12:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": [],
+              "2019-04-19": [],
+              "2019-04-21": [],
+              "2019-04-22": [],
+              "2019-05-06": [],
+              "2019-05-27": []
+            }
+          },
+          "summary": "<p>We are an Independent Dementia friendly Pharmacy providing both NHS and Private services. A menu of NHS services provided is listed under Departments and Services.Below is a list of some of the private treatment services we provide:</p><br /><ul><br /><li>Travel Clinic - Including all neccessary anti - malarial tablets and Vaccinations</li><br /><li>Influenza and Pneumococcal Vavvination</li><br /><li>Meningitis B &amp; ACY Vaccination</li><br /><li>Zostvax (shingles) Vaccination</li><br /><li>Various other Vaccinations</li><br /><li>Erectile Dysfunction Treatment</li><br /><li>Premature Ejaculation Treatment</li><br /><li>Male Hair Loss Treatment</li><br /><li>Period Delay Treatment</li><br /><li>Provision of Contracaceptive Pill </li><br /><li>Provision of Morning After Pill</li><br /><li>Female Facial Hair Treatment</li><br /><li>Weight Loss treatment</li><br /><li>Rosacea Treatment</li><br /><li>UTI Infection Treatment</li><br /><li>Sore Throat Testing &amp; Treatment Service</li><br /><li>Asthma Inhalers</li><br /><li>Travellers Diarrhoea Treatment</li><br /></ul><br /><p>If you are unable to see your own GP or get seen by the Emergency GP service we also provide a Private Walk in GP service.</p><br /><ul><br /></ul>",
+          "uid": "FKF80"
+        },
+        "sort": [
+          1.3060722535023708
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl462033",
+        "_score": null,
+        "_source": {
+          "id": "cl462033",
+          "odsCode": "FA287",
+          "serviceType": "SRV0267",
+          "address": {
+            "postcode": "SW9 9AE",
+            "addressLines": [
+              "310 Clapham Road",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": "http://www.pulse-pharmacy.com/",
+            "additionalContacts": [],
+            "telephoneNumber": "020 7622 2544",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": "020 7207 3169",
+            "email": "info@pulse-pharmacy.com"
+          },
+          "identifier": "FA287",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.12457485496997833,
+              51.47108840942383
+            ]
+          },
+          "name": "PULSE PHARMACY",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "08:00",
+                  "closes": "19:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "08:00",
+                  "closes": "20:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "08:00",
+                  "closes": "20:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "08:00",
+                  "closes": "20:00"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "08:00",
+                  "closes": "20:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-03-30": [],
+              "2018-04-02": [],
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": [],
+              "2019-04-19": [],
+              "2019-04-22": [],
+              "2019-05-06": [],
+              "2019-05-27": [],
+              "2019-08-26": [],
+              "2019-12-25": [],
+              "2019-12-26": []
+            }
+          },
+          "summary": "<p>Pulse Pharmacy is located in the heart of the bustling community of Stockwell in South West London.&nbsp;</p><br /><p><strong>We dispense both NHS and private prescriptions</strong> as well as carry out pharmacy services such as:&nbsp;</p><br /><ul><br /><li>Medicine Use Reviews</li><br /><li>Travel Health Clinic</li><br /><li>Sexual Health Clinic</li><br /><li>Diabetes 2 Screening</li><br /><li>Blood Pressure Tests</li><br /><li>Cholesterol Tests</li><br /><li>BMI Health Checks.</li><br /></ul><br /><p>We can provide confidential advice on medication, common ailments, treatments and the benefits of and routes to a healthy lifestyle.</p><br /><p>We have an extensive range of medicinal and healthcare products available and we deliver regular prescriptions for free to our local patients.</p><br /><p>We also offer a wide range of healthcare services carried out by qualified practitioners from within our modern integrated Wellness Clinic.</p><br /><p>A sample of these include:</p><br /><ul><br /><li>Nutritional Advice</li><br /><li>Beauty</li><br /><li>Skin Rejuvention Theapy</li><br /></ul><br /><p>At Pulse Pharmacy, we aim to serve your each and every healthcare need. Whatever it is you need, we have something to cater to your wellbeing.</p>",
+          "uid": "FA287"
+        },
+        "sort": [
+          1.4345707000670167
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl232943",
+        "_score": null,
+        "_source": {
+          "id": "cl232943",
+          "odsCode": "FV733",
+          "serviceType": "SRV0267",
+          "address": {
+            "postcode": "SE16 3HF",
+            "addressLines": [
+              "Bonamy Pharmacy",
+              "355 Rotherhithe New Road",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": null,
+            "additionalContacts": [
+              {
+                "name": "Mr. Atulkumar Patel MRpharmS",
+                "description": "Superintendent Pharmacist / Director",
+                "telephoneNumber": null,
+                "telephoneExtension": null,
+                "fax": null,
+                "email": "nhspharmacy.southwark.bonamypharmacyfv733@nhs.net"
+              },
+              {
+                "name": "Sachin Patel",
+                "description": "Company Manager",
+                "telephoneNumber": "020 7740 2523",
+                "telephoneExtension": null,
+                "fax": null,
+                "email": null
+              }
+            ],
+            "telephoneNumber": "020 7740 2523",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": "020 7740 2523",
+            "email": "info@mildcare.com"
+          },
+          "identifier": "FV733",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.0625559389591217,
+              51.48645782470703
+            ]
+          },
+          "name": "Bonamy Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "14:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-03-30": [],
+              "2018-04-02": [],
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": []
+            }
+          },
+          "summary": "<p>Welcome to <strong>Bonamy Pharmacy.</strong></p><br /><p>We are an independent pharmacy who have been serving the local and surrounding communities for many years.</p><br /><p>Our Aim is to meet all the health needs of the community.</p><br /><p>Our Company <strong>Mildcare Limited</strong> has been established since 1983 and we are currently trading as <strong>Bonamy Pharmacy</strong> in Southwark and <strong>Lincoln Pharmacy</strong> (E3 4AL) in Tower Hamlets.</p><br /><p>Our Company Mission Statement is:</p><br /><p><em><strong>\"Making a difference to the quality of life of the clients we serve by reducing the burden of their disease\"</strong></em></p><br /><p>We look forward to you visiting us!<strong><em><br /></em></strong></p><br /><p>&nbsp;</p>",
+          "uid": "FV733"
+        },
+        "sort": [
+          1.523685781419038
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl202563",
+        "_score": null,
+        "_source": {
+          "id": "cl202563",
+          "odsCode": "FTP89",
+          "serviceType": "SRV0267",
+          "address": {
+            "postcode": "SE1 4TW",
+            "addressLines": [
+              "107 Tower Bridge Road",
+              "Southwark",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": null,
+            "additionalContacts": [],
+            "telephoneNumber": "020 7407 0051",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": "2074070051",
+            "fax": "020 7378 7546",
+            "email": "harfleurtowerbridge@aah-n3.co.uk"
+          },
+          "identifier": "FTP89",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.08274516463279724,
+              51.49652862548828
+            ]
+          },
+          "name": "Harfleur Chemist",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2013-12-25": [
+                {
+                  "opens": "10:00",
+                  "closes": "22:00"
+                }
+              ],
+              "2013-12-26": [],
+              "2014-01-01": [],
+              "2017-12-25": [],
+              "2017-12-26": [],
+              "2018-01-01": [],
+              "2018-03-30": [],
+              "2018-04-02": [],
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": []
+            }
+          },
+          "summary": null,
+          "uid": "FTP89"
+        },
+        "sort": [
+          1.6169345304320706
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "21815345",
+        "_score": null,
+        "_source": {
+          "address": {
+            "addressLines": [
+              "89 Clapham High Street",
+              "Clapham",
+              "London",
+              "Greater London"
+            ],
+            "postcode": "SW4 7DB"
+          },
+          "contacts": {
+            "telephoneNumber": "020 3049 6600",
+            "website": "http://www.claphamfamilypractice.com/nhs/sexual-health-clinics/"
+          },
+          "gsdId": "10035083",
+          "id": "21815345",
+          "location": {
+            "coordinates": [
+              -0.133508682,
+              51.46317
+            ],
+            "type": "Point"
+          },
+          "name": "Clapham Family Practice\r\n",
+          "openingTimes": {
+            "description": "Walk-in service available (for STI testing/treatment and emergency contraception ONLY): Thursday 6.30pm - 8.30pm Saturday 9.30am - 11.30am  Emergency contraception is also available Monday to Friday between 8.30am - 10am, please call for more information. If you need an appointment with a nurse,for long-acting methods of contraception for example, you must be registered with the practice and are required to book an appointment. Call ahead if you're unsure whether you need an appointment or if you can attend the walk-in service."
+          },
+          "serviceDetails": "This is a confidential advice and information clinic for sexual health concerns. You can talk about any aspect of sexual health eg contraceptives, sexually transmitted infections, pregnancy etc. You do not have to be registered at the practice to attend the walk-in.",
+          "serviceType": "Chlamydia screening under 25s",
+          "venueType": "Clinic",
+          "uid": "10035083"
+        },
+        "sort": [
+          1.950033950855342
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl240406",
+        "_score": null,
+        "_source": {
+          "id": "cl240406",
+          "odsCode": "FV390",
+          "serviceType": "SRV0267",
+          "address": {
+            "postcode": "SE16 4RT",
+            "addressLines": [
+              "182 Jamaica Road",
+              "Southwark",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": "http://www.jamaicaroadpharmacy.co.uk",
+            "additionalContacts": [],
+            "telephoneNumber": "020 7237 3483",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": null,
+            "email": "jamaicaroadpharmacy@outlook.com"
+          },
+          "identifier": "FV390",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.06198819726705551,
+              51.498146057128906
+            ]
+          },
+          "name": "Jamaica Road Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "08:00",
+                  "closes": "18:30"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:30"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "10:00",
+                  "closes": "14:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-08-27": [
+                {
+                  "opens": "08:00",
+                  "closes": "20:00"
+                }
+              ]
+            }
+          },
+          "summary": "<p>Jamaica Road Pharmacy is a friendly family run Pharmacy providing a much needed service to the people of Bermondsey for over 30 years.</p><br /><p>Our aim is to serve the community to meet their Health Needs and have a positive impact on their Wellbeing.</p><br /><p>We are an accredited Yellow Fever Centre and provide a full vaccination and childhood immunisation service.</p><br /><p>Seasonal flu vaccination service (not at risk groups) also provided.</p><br /><p>Visit our website for more information at www.jamaicaroadpharmacy.co.uk</p><br /><p>&nbsp;</p>",
+          "uid": "FV390"
+        },
+        "sort": [
+          2.109598898844371
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "21911003",
+        "_score": null,
+        "_source": {
+          "address": {
+            "addressLines": [
+              "4-6 Railway Arches",
+              "Burrell Street",
+              "London",
+              "Greater London"
+            ],
+            "postcode": "SE1 0UN"
+          },
+          "contacts": {
+            "telephoneNumber": "020 7188 6666",
+            "website": "http://www.burrellstreet.co.uk/"
+          },
+          "generalNotes": "IUD/IUS (coil) insertions, contraceptive implants - please book an appointment online using Zesty www.zesty.co.uk",
+          "gsdId": "10035452",
+          "id": "21911003",
+          "location": {
+            "coordinates": [
+              -0.102915436,
+              51.50623
+            ],
+            "type": "Point"
+          },
+          "name": "Burrell Street Centre for Sexual Health",
+          "openingTimes": {
+            "description": "Walk-in and Zesty slots service only (see below for information about booking Zesty slots)   We recommend that you arrive as early as possible as waiting times can vary. While we make every effort to see as many people as possible, unfortunately we cannot guarantee that you will be seen.  Walk-in and Zesty online booking slots Monday 8am - 6pm Tuesday 8am - 6pm Wednesday 12.30pm - 6pm Thursday 8am - 6pm Friday 8am - 6pm Saturday 8am - 3pm Sunday 9am - 4pm  To book a Zesty slot please go to: www.zesty.co.uk"
+          },
+          "serviceDetails": "NHS clinic that’s open seven days a week, offering a full range of sexual health services including:  • Tests and treatment for all sexually transmitted infections.  • One minute HIV testing, and PEP (post exposure prophylaxis). Just ask at the front desk when you arrive at the clinic.  • A contraceptive service with both walk-in and booked appointments. We also offer emergency contraception.   Please call the clinic on 0207 188 6666 for further details.",
+          "serviceType": "Chlamydia screening under 25s",
+          "venueType": "Clinic",
+          "uid": "10035452"
+        },
+        "sort": [
+          2.2954637223694285
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl165953",
+        "_score": null,
+        "_source": {
+          "id": "cl165953",
+          "odsCode": "FCW76",
+          "serviceType": "SRV0267",
+          "address": {
+            "postcode": "SE27 9AZ",
+            "addressLines": [
+              "154-156 Norwood Road",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": null,
+            "additionalContacts": [],
+            "telephoneNumber": "020 8674 2455",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": "020 8674 2455",
+            "email": "d.ruwala@nhs.net"
+          },
+          "identifier": "FCW76",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.10649525374174118,
+              51.44070053100586
+            ]
+          },
+          "name": "Deejay Chemist",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "13:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2017-12-25": [],
+              "2017-12-26": [],
+              "2018-01-01": [],
+              "2018-03-30": [],
+              "2018-04-02": [],
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": [],
+              "2019-04-19": [],
+              "2019-04-22": [],
+              "2019-05-06": [],
+              "2019-05-27": [],
+              "2019-08-26": [],
+              "2019-12-25": [],
+              "2019-12-26": []
+            }
+          },
+          "summary": "",
+          "uid": "FCW76"
+        },
+        "sort": [
+          2.3743199804075337
+        ]
+      }
+    ]
+  }
+}

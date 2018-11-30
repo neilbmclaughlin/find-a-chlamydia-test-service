@@ -1,0 +1,23 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        { "match": { "serviceType": "SRV0531" } }
+      ]
+    }
+  },
+  "size": _SIZE_,
+  "sort": [
+    {
+      "_geo_distance": {
+        "distance_type": "arc",
+        "location.coordinates": {
+          "lat": _LAT_,
+          "lon": _LON_
+        },
+        "order": "asc",
+        "unit": "mi"
+      }
+    }
+  ]
+}

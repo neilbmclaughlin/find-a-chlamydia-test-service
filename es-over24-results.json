@@ -1,0 +1,1029 @@
+{
+  "took": 5,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 543,
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl448088",
+        "_score": null,
+        "_source": {
+          "id": "cl448088",
+          "odsCode": "FW543",
+          "serviceType": "SRV0531",
+          "address": {
+            "postcode": "SE17 1RL",
+            "addressLines": [
+              "251- 253 Walworth Road",
+              "Elephant & Castle",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": "http://www.ksc1t.co.uk/",
+            "additionalContacts": [
+              {
+                "name": "K.S.C. 1T Ltd T/A Ridgway Pharmacy",
+                "description": null,
+                "telephoneNumber": "020 7703 5901",
+                "telephoneExtension": null,
+                "fax": null,
+                "email": "chanachemistwalworth@gmail.com"
+              }
+            ],
+            "telephoneNumber": "020 7701 2720",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": "020 7252 6986",
+            "email": "lch.chanaridgway@nhs.net"
+          },
+          "identifier": "FW543",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.09567369520664215,
+              51.48878860473633
+            ]
+          },
+          "name": "Ridgway Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-12-09": [
+                {
+                  "opens": "10:00",
+                  "closes": "15:00"
+                }
+              ],
+              "2018-12-16": [
+                {
+                  "opens": "10:00",
+                  "closes": "15:00"
+                }
+              ],
+              "2018-12-23": [
+                {
+                  "opens": "10:00",
+                  "closes": "15:00"
+                }
+              ],
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": []
+            }
+          },
+          "summary": "<p>Ridgway Pharmacy is a family run friendly pharmacy, serving the community of Elephant &amp; Castle and the surrounding areas. We provide a wide range of NHS and Private Dispensing services and have a large variety of over the counter medicines.</p><br /><ul><br /></ul><br /><ul><br /></ul><br /><ul><br /><li>NHS &amp; Private Prescriptions Dispensed Here!</li><br /><li><strong>Free</strong> Emergency Hormonal Contraception (EHC)</li><br /><li><strong>Free</strong> Oral Hormonal Contraception (Initial &amp; Repeat supplies)</li><br /><li>Chlamydia Testing and Treatment (under 25s)</li><br /><li><strong>Minor Ailments Service</strong> (Southwark Residents only)</li><br /><li>Needle Exchange Service</li><br /><li>Improved Medicine Stock Availability.</li><br /><li>Free Prescription Re-Order, Collection &amp; Limited Delivery Service.</li><br /><li>Free Electronic Prescription Service (EPS).</li><br /><li>Weight-Loss Advice &amp; Support.</li><br /><li>NHS &amp; Private Services.</li><br /><li>Stop Smoking Advice &amp; Support</li><br /><li>Seasonal FLU Vaccination.</li><br /><li>Passport, ID &amp; Visa Photos Taken Here.</li><br /><li>Erectile Dysfunction &amp; Malaria Tablets Service (OTC sale)</li><br /></ul>",
+          "uid": "FW543"
+        },
+        "sort": [
+          1.052703510633844
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl249314",
+        "_score": null,
+        "_source": {
+          "id": "cl249314",
+          "odsCode": "FE110",
+          "serviceType": "SRV0531",
+          "address": {
+            "postcode": "SW9 7DE",
+            "addressLines": [
+              "387 Brixton Road",
+              "Kingshield Pharmacy",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": "http://www.kingshield-pharmacy.co.uk",
+            "additionalContacts": [
+              {
+                "name": "Khalid",
+                "description": "Pharmacy Manager",
+                "telephoneNumber": "020 7274 2424",
+                "telephoneExtension": null,
+                "fax": "020 7274 8586",
+                "email": "kingshield387@hotmail.com"
+              },
+              {
+                "name": "Nainesh",
+                "description": "Pharmacist",
+                "telephoneNumber": "020 7274 2424",
+                "telephoneExtension": null,
+                "fax": "020 7274 8586",
+                "email": "LCH.Kingshield387@nhs.net"
+              },
+              {
+                "name": "Kingshield Pharmacy Team",
+                "description": "Pharmacy Team",
+                "telephoneNumber": "020 7274 2424",
+                "telephoneExtension": null,
+                "fax": "202748586",
+                "email": "nhspharmacy.london.kingshieldpharmacyfe110@nhs.net"
+              }
+            ],
+            "telephoneNumber": "020 7274 2424",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": "020 7274 8586",
+            "email": "LCH.Kingshield387@nhs.net"
+          },
+          "identifier": "FE110",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.11393389105796814,
+              51.46446228027344
+            ]
+          },
+          "name": "Kingshield Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:30"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-03-30": [],
+              "2018-04-02": [],
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": []
+            }
+          },
+          "summary": "<p><strong>We are independent pharmacy established since 1979 with same Pharmacist serving Brixton.</strong></p><br /><p><strong>Online Doctor-www.fastdr.com/kingshield-pharmacy</strong></p>",
+          "uid": "FE110"
+        },
+        "sort": [
+          1.1594909746948412
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl194718",
+        "_score": null,
+        "_source": {
+          "id": "cl194718",
+          "odsCode": "FKF80",
+          "serviceType": "SRV0531",
+          "address": {
+            "postcode": "SE11 4HQ",
+            "addressLines": [
+              "99 Kennington Lane",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": "http://www.hillspharmacy.net",
+            "additionalContacts": [],
+            "telephoneNumber": "020 7582 6344",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": null,
+            "email": null
+          },
+          "identifier": "FKF80",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.10807032138109207,
+              51.489620208740234
+            ]
+          },
+          "name": "Hills Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "08:30",
+                  "closes": "18:30"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "08:30",
+                  "closes": "19:30"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "08:30",
+                  "closes": "18:30"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "08:30",
+                  "closes": "19:30"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "08:30",
+                  "closes": "18:30"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "12:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": [],
+              "2019-04-19": [],
+              "2019-04-21": [],
+              "2019-04-22": [],
+              "2019-05-06": [],
+              "2019-05-27": []
+            }
+          },
+          "summary": "<p>We are an Independent Dementia friendly Pharmacy providing both NHS and Private services. A menu of NHS services provided is listed under Departments and Services.Below is a list of some of the private treatment services we provide:</p><br /><ul><br /><li>Travel Clinic - Including all neccessary anti - malarial tablets and Vaccinations</li><br /><li>Influenza and Pneumococcal Vavvination</li><br /><li>Meningitis B &amp; ACY Vaccination</li><br /><li>Zostvax (shingles) Vaccination</li><br /><li>Various other Vaccinations</li><br /><li>Erectile Dysfunction Treatment</li><br /><li>Premature Ejaculation Treatment</li><br /><li>Male Hair Loss Treatment</li><br /><li>Period Delay Treatment</li><br /><li>Provision of Contracaceptive Pill </li><br /><li>Provision of Morning After Pill</li><br /><li>Female Facial Hair Treatment</li><br /><li>Weight Loss treatment</li><br /><li>Rosacea Treatment</li><br /><li>UTI Infection Treatment</li><br /><li>Sore Throat Testing &amp; Treatment Service</li><br /><li>Asthma Inhalers</li><br /><li>Travellers Diarrhoea Treatment</li><br /></ul><br /><p>If you are unable to see your own GP or get seen by the Emergency GP service we also provide a Private Walk in GP service.</p><br /><ul><br /></ul>",
+          "uid": "FKF80"
+        },
+        "sort": [
+          1.3060722535023708
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl418549",
+        "_score": null,
+        "_source": {
+          "id": "cl418549",
+          "odsCode": "FA287",
+          "serviceType": "SRV0531",
+          "address": {
+            "postcode": "SW9 9AE",
+            "addressLines": [
+              "310 Clapham Road",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": "http://www.pulse-pharmacy.com/",
+            "additionalContacts": [],
+            "telephoneNumber": "020 7622 2544",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": "020 7207 3169",
+            "email": "info@pulse-pharmacy.com"
+          },
+          "identifier": "FA287",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.12457485496997833,
+              51.47108840942383
+            ]
+          },
+          "name": "PULSE PHARMACY",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "08:00",
+                  "closes": "19:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "08:00",
+                  "closes": "20:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "08:00",
+                  "closes": "20:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "08:00",
+                  "closes": "20:00"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "08:00",
+                  "closes": "20:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-03-30": [],
+              "2018-04-02": [],
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": [],
+              "2019-04-19": [],
+              "2019-04-22": [],
+              "2019-05-06": [],
+              "2019-05-27": [],
+              "2019-08-26": [],
+              "2019-12-25": [],
+              "2019-12-26": []
+            }
+          },
+          "summary": "<p>Pulse Pharmacy is located in the heart of the bustling community of Stockwell in South West London.&nbsp;</p><br /><p><strong>We dispense both NHS and private prescriptions</strong> as well as carry out pharmacy services such as:&nbsp;</p><br /><ul><br /><li>Medicine Use Reviews</li><br /><li>Travel Health Clinic</li><br /><li>Sexual Health Clinic</li><br /><li>Diabetes 2 Screening</li><br /><li>Blood Pressure Tests</li><br /><li>Cholesterol Tests</li><br /><li>BMI Health Checks.</li><br /></ul><br /><p>We can provide confidential advice on medication, common ailments, treatments and the benefits of and routes to a healthy lifestyle.</p><br /><p>We have an extensive range of medicinal and healthcare products available and we deliver regular prescriptions for free to our local patients.</p><br /><p>We also offer a wide range of healthcare services carried out by qualified practitioners from within our modern integrated Wellness Clinic.</p><br /><p>A sample of these include:</p><br /><ul><br /><li>Nutritional Advice</li><br /><li>Beauty</li><br /><li>Skin Rejuvention Theapy</li><br /></ul><br /><p>At Pulse Pharmacy, we aim to serve your each and every healthcare need. Whatever it is you need, we have something to cater to your wellbeing.</p>",
+          "uid": "FA287"
+        },
+        "sort": [
+          1.4345707000670167
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl232955",
+        "_score": null,
+        "_source": {
+          "id": "cl232955",
+          "odsCode": "FV733",
+          "serviceType": "SRV0531",
+          "address": {
+            "postcode": "SE16 3HF",
+            "addressLines": [
+              "Bonamy Pharmacy",
+              "355 Rotherhithe New Road",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": null,
+            "additionalContacts": [
+              {
+                "name": "Mr. Atulkumar Patel MRpharmS",
+                "description": "Superintendent Pharmacist / Director",
+                "telephoneNumber": null,
+                "telephoneExtension": null,
+                "fax": null,
+                "email": "nhspharmacy.southwark.bonamypharmacyfv733@nhs.net"
+              },
+              {
+                "name": "Sachin Patel",
+                "description": "Company Manager",
+                "telephoneNumber": "020 7740 2523",
+                "telephoneExtension": null,
+                "fax": null,
+                "email": null
+              }
+            ],
+            "telephoneNumber": "020 7740 2523",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": "020 7740 2523",
+            "email": "info@mildcare.com"
+          },
+          "identifier": "FV733",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.0625559389591217,
+              51.48645782470703
+            ]
+          },
+          "name": "Bonamy Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "14:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-03-30": [],
+              "2018-04-02": [],
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": []
+            }
+          },
+          "summary": "<p>Welcome to <strong>Bonamy Pharmacy.</strong></p><br /><p>We are an independent pharmacy who have been serving the local and surrounding communities for many years.</p><br /><p>Our Aim is to meet all the health needs of the community.</p><br /><p>Our Company <strong>Mildcare Limited</strong> has been established since 1983 and we are currently trading as <strong>Bonamy Pharmacy</strong> in Southwark and <strong>Lincoln Pharmacy</strong> (E3 4AL) in Tower Hamlets.</p><br /><p>Our Company Mission Statement is:</p><br /><p><em><strong>\"Making a difference to the quality of life of the clients we serve by reducing the burden of their disease\"</strong></em></p><br /><p>We look forward to you visiting us!<strong><em><br /></em></strong></p><br /><p>&nbsp;</p>",
+          "uid": "FV733"
+        },
+        "sort": [
+          1.523685781419038
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl406703",
+        "_score": null,
+        "_source": {
+          "id": "cl406703",
+          "odsCode": "FPN02",
+          "serviceType": "SRV0531",
+          "address": {
+            "postcode": "SW2 1HT",
+            "addressLines": [
+              "294 Brixton Hill",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": "http://www.sgmanningpharmacy.com",
+            "additionalContacts": [],
+            "telephoneNumber": "020 8674 4391",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": "020 8674 8686",
+            "email": "info@sgmanningpharmacy.com"
+          },
+          "identifier": "FPN02",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.12457311898469925,
+              51.44584655761719
+            ]
+          },
+          "name": "Sg Manning Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "14:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": []
+            }
+          },
+          "summary": "<p>Welcome to S.G. Manning&nbsp;Pharmacy. We aim to provide our local community with a professional service of the highest standard and one that&nbsp;specifically meets the needs of our customers.</p><br /><p>Regulated by the General Pharmaceutical Society (GPhC) S.G. Manning&nbsp;Pharmacy&nbsp;is set up to supply NHS and private prescriptions. Our team of highly experienced pharmacists will oversee every step in the process to ensure you receive the best quality service.</p><br /><p>Our online shop will provide you with a full choice of medicines, toiletries, gifts and perfumes at guaranteed low internet prices.</p><br /><p>If you need healthcare advice then please see our&nbsp;Health advice&nbsp;section,&nbsp;or you can&nbsp;Ask Your Pharmacist&nbsp;online.</p><br /><p>&nbsp;</p><br /><p>&nbsp;</p>",
+          "uid": "FPN02"
+        },
+        "sort": [
+          2.397448331230604
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl175919",
+        "_score": null,
+        "_source": {
+          "id": "cl175919",
+          "odsCode": "FHT60",
+          "serviceType": "SRV0531",
+          "address": {
+            "postcode": "SW1V 1RY",
+            "addressLines": [
+              "34-36 Warwick Way",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": null,
+            "additionalContacts": [],
+            "telephoneNumber": "020 7834 4721",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "unknown method",
+            "phoneChargeAmount": null,
+            "telephoneExtension": null,
+            "fax": null,
+            "email": null
+          },
+          "identifier": "FHT60",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.14048907160758972,
+              51.49188995361328
+            ]
+          },
+          "name": "Warwick Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "sunday": [
+                {
+                  "opens": "11:00",
+                  "closes": "16:00"
+                }
+              ]
+            },
+            "alterations": {
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": []
+            }
+          },
+          "summary": "<p>Welcome to our pharmacy, we take great pride in the quality of our service and want to be your first choice for medicine management and healthcare needs for you and your family.</p>",
+          "uid": "FHT60"
+        },
+        "sort": [
+          2.4507247890360633
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl210065",
+        "_score": null,
+        "_source": {
+          "id": "cl210065",
+          "odsCode": "FL836",
+          "serviceType": "SRV0531",
+          "address": {
+            "postcode": "SW8 3RX",
+            "addressLines": [
+              "26 Queenstown Road",
+              "Battersea"
+            ]
+          },
+          "contacts": {
+            "website": null,
+            "additionalContacts": [],
+            "telephoneNumber": "020 7622 9255",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": "0800 098 8770",
+            "email": "fairleepharmacy@aol.com"
+          },
+          "identifier": "FL836",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.15024402737617493,
+              51.46691131591797
+            ]
+          },
+          "name": "Fairlee Queenstown Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": []
+            }
+          },
+          "summary": "<p>We are your local independent pharmacy based on Queenstown Road. With a determined aim for clinical excellence and great patient support, we have been serving the local communities in Battersea and Clapham for the last 35 years<br /><br />We offer a wide range of services, including:</p><br /><ul><br /><li>NHS &amp; Private Prescriptions</li><br /><li>Electronic Prescription Service to save you hassle</li><br /><li>Repeat Prescriptions Managed / Ordered From Your GP</li><br /><li>Medicine Home Delivery</li><br /><li>Stop Smoking Support</li><br /><li>Emergency Hormonal Contraception - Morning After Pill</li><br /><li>Minor Ailments - Treating Minor Illnesses Without Seeing Your GP</li><br /><li>Flu Vaccinations (NHS &amp; Private)</li><br /><li>Free Health Advice&nbsp;</li><br /><li>Medicine Use Reviews (MUR)</li><br /><li>New Medicines Service (NMS)</li><br /><li>Special Orders For Difcult To Get Items</li><br /><li>Disability &amp; Mobility Aids</li><br /></ul><br /><p>&nbsp;</p>",
+          "uid": "FL836"
+        },
+        "sort": [
+          2.5714732274628895
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl370504",
+        "_score": null,
+        "_source": {
+          "id": "cl370504",
+          "odsCode": "FHL15",
+          "serviceType": "SRV0531",
+          "address": {
+            "postcode": "SE14 6LD",
+            "addressLines": [
+              "2 Amersham Vale",
+              "New Cross"
+            ]
+          },
+          "contacts": {
+            "website": null,
+            "additionalContacts": [],
+            "telephoneNumber": "020 8692 8695",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": null,
+            "email": "LCH.stationpharmacy@nhs.net"
+          },
+          "identifier": "FHL15",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.03189606964588165,
+              51.476287841796875
+            ]
+          },
+          "name": "Station Pharmacy",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "17:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": []
+            }
+          },
+          "summary": "<p>Our pharmacy is a family run business that has been serving the community of New Cross and Deptford for over forty-five years. We are dedicated to providing a wide range of innovative, high quality services in a convenient, accessible manner to meet the needs of our patients and customers. We believe in supporting and empowering our patients to make informed decisions on their health and well-being by providing expert advice and information.&nbsp;</p><br /><p>The pharmacy provides a wide range of both NHS funded and private services and we are well equipped with a specially designed consultation room, modern IT&nbsp;systems and highly trained staff. This means you can enjoy high&nbsp;quality&nbsp;health series in a comfortable and private environment. Our private services are competitively priced and most are available at short notice with no appointment necessary. We also stock a wide range of both over the counter medicines and pharmacy only medicines.<br /><br /></p><br /><p>Our pharmacy is accredited as a Health Living Pharmacy (HLP)&nbsp;which ensures we consistently delivery a broad range of high quality services to meet local needs, improve&nbsp;the health of our local population and help to reduce health inequalities. The HLP framework allows us to ensure that we continually developing our team with the skills to pro-actively support and promote behaviour change, improve health and well-being. We also engage with our local community, other healthcare professionals, social care, public health professionals and local authorities to&nbsp;meet the health needs our local population.&nbsp;<br /><br /></p><br /><p>&nbsp;</p>",
+          "uid": "FHL15"
+        },
+        "sort": [
+          2.5718843066118406
+        ]
+      },
+      {
+        "_index": "sexual-health-services_20181129070001",
+        "_type": "sexual-health-service",
+        "_id": "cl202769",
+        "_score": null,
+        "_source": {
+          "id": "cl202769",
+          "odsCode": "FT016",
+          "serviceType": "SRV0531",
+          "address": {
+            "postcode": "SW12 9DR",
+            "addressLines": [
+              "61 Balham Hill",
+              "London"
+            ]
+          },
+          "contacts": {
+            "website": "https://pharmacyforhealth.co.uk",
+            "additionalContacts": [],
+            "telephoneNumber": "020 8673 1738",
+            "isNonGeographicPhoneNumber": false,
+            "phoneChargeMethod": "flat-rate",
+            "phoneChargeAmount": 0,
+            "telephoneExtension": null,
+            "fax": "020 8673 9729",
+            "email": "wjboyes.chemist@nhs.net"
+          },
+          "identifier": "FT016",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -0.1474021077156067,
+              51.45140838623047
+            ]
+          },
+          "name": "Boyes Wj Pharmacy (Amichem Ltd)",
+          "openingTimes": {
+            "general": {
+              "monday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "tuesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "wednesday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "thursday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "friday": [
+                {
+                  "opens": "09:00",
+                  "closes": "19:00"
+                }
+              ],
+              "saturday": [
+                {
+                  "opens": "09:00",
+                  "closes": "14:00"
+                }
+              ],
+              "sunday": []
+            },
+            "alterations": {
+              "2018-04-02": [],
+              "2018-05-07": [],
+              "2018-05-28": [],
+              "2018-08-27": [],
+              "2018-12-25": [],
+              "2018-12-26": [],
+              "2019-01-01": []
+            }
+          },
+          "summary": "<p>W J Boyes Chemist has been providing Pharmaceutical services to the Public for over 100 years.We provide daily pick up and delivery of prescriptions to Nursing homes,elderly and the disabled.We take great pride in the quality of service provided by our experianced team to all in need.</p><br /><p>We are a designated Travel Clinic offering vaccinations and Malaria prophylaxis at competitive prices.</p><br /><p>&nbsp;</p><br /><p>&nbsp;</p>",
+          "uid": "FT016"
+        },
+        "sort": [
+          2.859061115184193
+        ]
+      }
+    ]
+  }
+}

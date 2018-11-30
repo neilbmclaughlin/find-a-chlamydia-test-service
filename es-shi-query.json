@@ -1,0 +1,50 @@
+{
+  "_source": ["gsdId", "name", "address", "location", "serviceType", "venueType"],
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_phrase": {
+            "serviceType": "Sexual health information and support"
+          }
+        },
+        {
+          "match_phrase": {
+            "venueType": "Clinic"
+          }
+        }
+      ],
+      "must_not": [
+        {
+          "match_phrase": {
+            "name": "Marie Stopes"
+          }
+        },
+        {
+          "match_phrase": {
+            "name": "Young People Friendly Practice"
+          }
+        },
+        {
+          "match_phrase": {
+            "name": "BPAS"
+          }
+        }
+      ]
+    }
+  },
+  "size": _SIZE_,
+  "sort": [
+    {
+      "_geo_distance": {
+        "distance_type": "arc",
+        "location.coordinates": {
+          "lat": _LAT_,
+          "lon":_LON_ 
+        },
+        "order": "asc",
+        "unit": "mi"
+      }
+    }
+  ]
+}

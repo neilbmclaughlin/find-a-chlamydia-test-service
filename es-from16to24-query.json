@@ -1,0 +1,53 @@
+{
+  "query": {
+    "bool" : {
+      "minimum_should_match": 1,
+      "must_not": [
+        { "match_phrase": { "name": "Marie Stopes" } },
+        { "match_phrase": { "name": "Young People Friendly Practice" } },
+        { "match_phrase": { "name": "BPAS" } }
+      ],
+      "should": [
+        {
+          "bool": {
+            "must": [
+              { "match": { "serviceType": "SRV0267" } }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "must": [
+              { "match_phrase": { "serviceType": "Sexual health information and support" } },
+              { "match": { "venueType": "Community" } }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "minimum_should_match": 1,
+            "must": { "match_phrase": { "serviceType": "Chlamydia screening under 25s" } },
+            "should": [
+              { "match": { "venueType": "Clinic" } },
+              { "match": { "venueType": "Community" } }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "size": _SIZE_,
+  "sort": [
+    {
+      "_geo_distance": {
+        "distance_type": "arc",
+        "location.coordinates": {
+          "lat": _LAT_,
+          "lon": _LON_
+        },
+        "order": "asc",
+        "unit": "mi"
+      }
+    }
+  ]
+}
