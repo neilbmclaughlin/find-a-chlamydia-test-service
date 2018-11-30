@@ -6,7 +6,7 @@ for lat_lon in "LS1 53.7974737203539 -1.55262247079646" "TS5 54.5504859692766 -1
 # for i in "shi"
 do
   echo ${lat_lon}
-  size=10
+  size=20
 
   for i in "shi" "from16to24" "over24"
   do
