@@ -1,4 +1,4 @@
-# find-a-chlamydia-test-service
+# Manual comparison checks of the find-a-chlamydia-test-service
 
 Compares results from the repsonse from Elastic Search with that from Azure Search
 
